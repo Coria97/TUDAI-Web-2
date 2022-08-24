@@ -1,0 +1,3 @@
+1a) La extension tiene que ser .php para que pueda el servidor procesar.
+1b) Es una pagina dinamica ya que no se sabe el html hasta que se interpreta por el servidor php.
+1c) Porque no podriamos interpretar el codigo de nuestra pagina y no podriamos utilizar una arquitectura cliente-servidor.

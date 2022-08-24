@@ -1,0 +1,1 @@
+La diferencia entre un arreglo asociativo y uno indexado es la forma en la que accedemos a el valor guardado, en el asociativo vamos a necesitar una clave la cual nos devolvera un valor y en el indexado con indicarle la posicion sera suficiente.

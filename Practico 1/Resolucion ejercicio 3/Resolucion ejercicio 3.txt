@@ -1,0 +1,9 @@
+3a) La direncia es que dependiendo el metodo que utilizemos nuestra url mostrara o no los datos. En casos donde los datos del formulario sea sensible utilizares siempre un metodo POST mientras que si la informacion no es sensible utilizaremos el metodo GET.
+
+3b) POST consiste en datos "ocultos" (porque el cliente no los ve) enviados generalmente por un formulario cuyo method es post. Decir que el método no es de html, sino es el tipo de request http que se hace a X script. La ventaja de usar POSt es que estos datos necesitan un medio para poder ser enviados (no basta con escribir la url del script). Es ideal para formularios. Para recoger estos datos se usa el array superglobal $_POST.
+
+GET es un tipo de request que lleva los datos de forma "visible" al cliente. El medio de envio es la URL. GET es el tipo de request predeterminado. Al escribir una url en la barra de direcciones y pulsar enter, el request hacia esa url es de tipo GET. Para recoger los datos que llegan en la url se usa $_GET.
+
+REQUEST no es un tipo de request. $_REQUEST es una matriz superglobal que resulta de la unión de $_GET, $_POST y $_COOKIE (OJO, de los arreglos, no de los métodos). $_REQUEST siempre estará disponible (cualquiera sea el tipo de request http). Si te das cuenta, las tres matrices que contiene engloba $_REQUEST contienen datos de entrada (datos que se envian del cliente al servidor. Otras matrices como $_SERVER o $_ENV contienen datos que están en el servidor {salida}). De ahí su nombre. En síntesis $_REQUEST son los datos disponibles en el script luego de la petición (request) http.
+
+3c) 
