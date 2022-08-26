@@ -19,5 +19,4 @@
         </form>
         <p id="logueado"></p>
     </body>
-    <script src="Resolucion-ejercicio-3C-validar.js"></script>
 </html>

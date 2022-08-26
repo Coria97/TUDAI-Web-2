@@ -6,4 +6,4 @@ GET es un tipo de request que lleva los datos de forma "visible" al cliente. El 
 
 REQUEST no es un tipo de request. $_REQUEST es una matriz superglobal que resulta de la unión de $_GET, $_POST y $_COOKIE (OJO, de los arreglos, no de los métodos). $_REQUEST siempre estará disponible (cualquiera sea el tipo de request http). Si te das cuenta, las tres matrices que contiene engloba $_REQUEST contienen datos de entrada (datos que se envian del cliente al servidor. Otras matrices como $_SERVER o $_ENV contienen datos que están en el servidor {salida}). De ahí su nombre. En síntesis $_REQUEST son los datos disponibles en el script luego de la petición (request) http.
 
-3c) 
+3c) La principal diferencia es que al realizar consultas del lado del cliente una persona puede modificar nuestro js, mientras que del lado del servidor sera mas seguro.
