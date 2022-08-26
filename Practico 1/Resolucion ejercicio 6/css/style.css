@@ -1,7 +1,29 @@
 td {
-    border: 1px solid black;
+    width: 30px;
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 0;
 }
 
-.color{
-    background-color: yellow;
+table { 
+    border-collapse: collapse; 
+}
+
+tr{
+    padding: 0;
+}
+
+.style0{
+    border: none;
+}
+
+.style1{
+    border: none;
+    background: yellow;
+    font-weight: bold;
+}
+
+.style2{
+    background: yellow;
+    font-weight: bold;
 }
