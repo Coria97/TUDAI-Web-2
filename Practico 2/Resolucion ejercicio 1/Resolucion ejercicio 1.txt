@@ -1,0 +1,4 @@
+Utilizariamos un sistema de archivo cuando:
+	* Los requerimiento para aplicar los datos son simples o no tienen un proposito especial y son datos estaticos.
+	* El conjunto de datos es muy pequenio y la perdida de ellos es aceptable.
+	* El conjunto de datos no es necesario que puedan acceder varios usuarios a la vez.
