@@ -1,0 +1,2 @@
+1 y 2) No, ya que no se puede guardar archivos de ese tipo. Lo que se puede hacer es almacenar las imagenes en el servido y luego en la base de datos una referencia en un campo de tipo varchar. 
+Asi luego podemos con el back-end traer la imagen en cuestion.
